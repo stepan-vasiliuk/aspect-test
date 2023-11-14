@@ -1,0 +1,10 @@
+@import "src/styles/mixins";
+
+.complexPanel {
+  @include panel;
+
+
+  .externalClass {
+    background-color: #455a64;
+  }
+}

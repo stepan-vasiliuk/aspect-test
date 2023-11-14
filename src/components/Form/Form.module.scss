@@ -1,0 +1,107 @@
+@import "/src/styles/vars.scss";
+
+.form {
+  font: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px 30px;
+  margin-bottom: 50px;
+  background-color: $content-background;
+  border-radius: 20px;
+
+  .formFields {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .input {
+      font: inherit;
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+
+
+      .label {
+        font-size: 14px;
+      }
+
+      input {
+        font: inherit;
+        padding: 0.25em 0.5em;
+        outline: none;
+        border: none;
+        border-radius: 0.25em;
+        font-size: 13px;
+        line-height: inherit;
+        height: -webkit-fill-available;
+      }
+    }
+
+
+    //select {
+    //  appearance: none;
+    //  // Additional resets for further consistency
+    //  background-color: transparent;
+    //  border: none;
+    //  padding: 0 1em 0 0;
+    //  margin: 0;
+    //  width: 100%;
+    //  font-family: inherit;
+    //  font-size: inherit;
+    //  cursor: inherit;
+    //  line-height: inherit;
+    //  outline: none;
+    //  overflow-y: hidden;
+
+    .select {
+      appearance: none;
+      display: inline-block;
+      //max-height: 21px;
+      //width: 33%;
+      //min-width: 15ch;
+      //max-width: 30ch;
+      border: none;
+      border-radius: 0.25em;
+      padding: 0.25em 0.5em;
+      //font-size: 1rem;
+      cursor: pointer;
+      //line-height: 1.1;
+      //background-color: #fff;
+      //background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+
+      font: inherit;
+      font-size: 13px;
+      outline: none;
+      line-height: inherit;
+      height: -webkit-fill-available;
+    }
+
+    .select::-ms-expand {
+      display: none;
+    }
+  }
+
+  button {
+    align-self: flex-end;
+
+    display: inline-block;
+    height: -webkit-fill-available;
+    border-radius: 8px;
+    border: 0;
+
+    padding: 5px 20px;
+
+    font: inherit;
+    text-align: center;
+
+
+    &:hover {
+      cursor: pointer;
+
+    }
+  }
+
+}

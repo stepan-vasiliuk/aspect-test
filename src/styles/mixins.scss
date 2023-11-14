@@ -1,0 +1,13 @@
+@mixin panel {
+  display: flex;
+  column-gap: 5px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}

@@ -1,0 +1,39 @@
+@import "/src/styles/vars.scss";
+
+.content {
+  background-color: $content-background;
+  height: 80vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: baseline;
+  align-content: flex-start;
+  row-gap: 10px;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+  overflow-y: auto;
+  box-sizing: border-box;
+
+
+  .label {
+
+    p {
+      text-align: center;
+    }
+  }
+
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8585AD;
+  border: 3px solid #8585AD;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2F2F37;
+}

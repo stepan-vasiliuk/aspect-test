@@ -1,0 +1,13 @@
+@import "src/styles/vars";
+.button {
+  font: inherit;
+  padding: 0;
+  display: inline-block;
+  background-color: $button-background;
+  color: white;
+  height: 50px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 400;
+}
